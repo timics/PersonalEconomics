@@ -1,0 +1,9 @@
+import java.sql.*;
+
+public class ecodb {
+
+	public ecodb(){
+		Connection conn = null;
+		conn = DriverManager.getConnection("jdbc:sqlite:test.db");
+	}
+}
